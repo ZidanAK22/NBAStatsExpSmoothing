@@ -10,7 +10,7 @@ points_array = []
 
 for i, player in enumerate(body):
     try:
-        points = player["assists"]
+        points = player["points"]  # ADJUST FEATURE HERE
         points_array.append(int(points))
     except KeyError:
         points_array.append(0)
