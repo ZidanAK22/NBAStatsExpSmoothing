@@ -1,0 +1,16 @@
+### Create a new python virtual environment
+
+python -m venv new_venv
+
+### Activate the venv
+
+/venv/Scripts/activate
+
+### Install The Requirements
+
+pip install -r requirements.txt
+
+
+###                               ###
+### Make sure python is installed ###
+###                               ###
